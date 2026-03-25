@@ -933,7 +933,5 @@ void Norm(TensorMem<T> &X, TensorMem<T> &Y, TensorMem<T> &gamma, TensorMem<T> &b
 #include "..\src\QuantizationLinear.tpp"
 #include "..\src\Quantize_Fused_op.tpp"
 #include "..\src\Norm.tpp"
-#include "..\src\Fused_op.tpp"
-#include "..\src\Hard_op.tpp"
 
 #endif 
